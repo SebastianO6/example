@@ -1,10 +1,27 @@
 * {
-    color: grey;
-    background-color: black;
+    color: rgb(107, 47, 47);
+    background-color: rgb(48, 43, 43);
+    text-align: center;
 }
 h1 {
     color: orange;
 }   
 h3 {
     color: indigo;
+}
+ul>li {
+    color: white;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+ol>li {
+    color: rgb(255, 255, 255);
+    list-style-type: number;
+    list-style-position: inside;
+    text-align: center;
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
